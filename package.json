@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha ./app/test --exit",
     "develop":"node ./server.js", 
-    "start":"npm run test && node server.js"
+    "start":"node server.js"
   },
   "keywords": [
     "nodejs",
