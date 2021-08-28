@@ -57,7 +57,7 @@ Generate and save :
 curl --location --request POST 'https://subtraction-on-go.herokuapp.com/api/generateQuestionAndSave' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-  "totalQuestions" : 10,
+  "totalQuestions" : 1,
   "minuendDigits" : 5,
   "subtrahendDigits" : 4,
   "isBorrow" : false
